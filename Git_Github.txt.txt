@@ -7,3 +7,4 @@
 6-working spacete kodlarımın durumunu görmek için"git status" komudu kullanılır.
 7-commit store (yani version oluşturudugumuz yer)daki versiyonlarımızı görmek için de "git log --online" komutunu kullanırız.
 8-Oluşturmuş olduğumuz versiyou githuba gönderebilmek için "git push <github repository adresi> ya da devamlı kullanacaüımız bir reoya "git remote add origin <repo adresi>/git push -u master" komutuyla github'a gönderebiliriz.
+9-Githuba gönderdiğimiz kodları da başka bir çalışma ortamına çekebilmek için "git pull <github repo adresi>" yazarak çekebiliriz.
