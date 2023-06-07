@@ -6,5 +6,8 @@
 5-"git commit -m"version adı"" kodu yazarak stageteki kodlarımızdan version oluşturmuş oluruz
 6-working spacete kodlarımın durumunu görmek için"git status" komudu kullanılır.
 7-commit store (yani version oluşturudugumuz yer)daki versiyonlarımızı görmek için de "git log --online" komutunu kullanırız.
-8-Oluşturmuş olduğumuz versiyou githuba gönderebilmek için "git push <github repository adresi> ya da devamlı kullanacaüımız bir reoya "git remote add origin <repo adresi>/git push -u master" komutuyla github'a gönderebiliriz.
+8-Oluşturmuş olduğumuz versiyou githuba gönderebilmek için "git push <github repository adresi> ya da devamlı kullanacaüımız bir reopys 1 kerelik "git remote add origin <repo adresi>" sonra ise "git push -u master" komutuyla github'a gönderebiliriz.
 9-Githuba gönderdiğimiz kodları da başka bir çalışma ortamına çekebilmek için "git pull <github repo adresi>" yazarak çekebiliriz.
+10-Lokalimizde ilşkilendirdiğimiz adresi "git remote -v" komutuyla görebiliriz
+11-Github tarafında yaptığımız bir değişiklik olursa adresi 1 kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
+Aynı şekilde adresi tanımladığımız için sadece "git push" komutu ile de kodlarımızı gönderebiliriz.
