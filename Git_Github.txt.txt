@@ -1,4 +1,4 @@
---Local'de Repo Olusturma ve Git_Github kullanımı---
+---Local'de Repo Olusturma ve Git_Github kullanımı---
 1-Çalışacağımız klasörü seçip ya da yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp ebter yapıp, açmış olduğumuz klasörün yolunda terminalimizi açmış oluruz.
 2-Ve bu dizinde açılan terminale "git init" yazarız. Sonrasında "initilaze empty git repository" yazısını gördüğümüzde bu çalışma alanımızda boş bir repository olusturmuş oluruz.
 3-"git init" yaptıktan sonraki çalışma alanımızın ismie "working space" denir
