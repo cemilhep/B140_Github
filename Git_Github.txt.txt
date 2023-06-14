@@ -8,3 +8,14 @@
 7-commit store (yani version oluşturudugumuz yer)daki versiyonlarımızı görmek için de "git log --online" komutunu kullanırız.
 8-Oluşturmuş olduğumuz versiyou githuba gönderebilmek için "git push <github repository adresi> ya da devamlı kullanacaüımız bir reoya "git remote add origin <repo adresi>/git push -u master" komutuyla github'a gönderebiliriz.
 9-Githuba gönderdiğimiz kodları da başka bir çalışma ortamına çekebilmek için "git pull <github repo adresi>" yazarak çekebiliriz.
+10-Lokalimizde ilşkilendirdiğimiz adresi "git remote -v" komutuyla görebiliriz
+11-Github tarafında yaptığımız bir değişiklik olursa adresi 1 kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
+Aynı şekilde adresi tanımladığımız için sadece "git push" komutu ile de kodlarımızı gönderebiliriz.
+
+14.06.2023
+---Restore/Branch veStash Komutları :----
+1-Working Space ve Staging Area'daki yapmış oldugumuz degisiklikleri geri alabiliriz.
+Working Spacete yaptıgımız bir güncellemeyi geri almak için "git restore ." komutuyla  yapılan değişiklikleri geri alabiliriz.
+Eger stageten geri almak istersek "git restore --staged" komutu kullanılır.
+Eger stageten geri almak istersek "git restore --staged" komutuyla working space'e geri alabiliriz.
+Ama her ikisinden de yazdıklarımız kaldırmak istersek "git reset --hard" komutunu kullanırız
