@@ -14,3 +14,8 @@ Aynı şekilde adresi tanımladığımız için sadece "git push" komutu ile de 
 
 14.06.2023
 ---Restore/Branch veStash Komutları :----
+1-Working Space ve Staging Area'daki yapmış oldugumuz degisiklikleri geri alabiliriz.
+Working Spacete yaptıgımız bir güncellemeyi geri almak için "git restore ." komutuyla  yapılan değişiklikleri geri alabiliriz.
+Eger stageten geri almak istersek "git restore --staged" komutu kullanılır.
+Eger stageten geri almak istersek "git restore --staged" komutuyla working space'e geri alabiliriz.
+Ama her ikisinden de yazdıklarımız kaldırmak istersek "git reset --hard" komutunu kullanırız
