@@ -11,3 +11,6 @@
 10-Lokalimizde ilşkilendirdiğimiz adresi "git remote -v" komutuyla görebiliriz
 11-Github tarafında yaptığımız bir değişiklik olursa adresi 1 kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
 Aynı şekilde adresi tanımladığımız için sadece "git push" komutu ile de kodlarımızı gönderebiliriz.
+
+14.06.2023
+---Restore/Branch veStash Komutları :----
